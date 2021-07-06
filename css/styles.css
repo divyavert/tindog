@@ -1,0 +1,173 @@
+#title {
+    background-color: #ff4c68;
+    font-family: 'Otomanopee One', sans-serif;
+    width: 100%;
+    color: white;
+    margin: 0 !important;
+}
+
+.heading {
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+    line-height: 1.69;
+}
+
+.container-fluid {
+    padding: 3% 15% !important;
+}
+
+.navbar-brand {
+    font-family: 'Festive', cursive;
+    font-size: 5rem !important;
+    font-weight: 500;
+}
+
+.navbar {
+    padding: 0 0 4.5rem !important;
+}
+
+.nav-item {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.phone {
+    width: 65%;
+    transform: rotate(14deg);
+    position: absolute;
+
+}
+
+.img {
+    padding-left: 15% !important;
+}
+
+/* feature */
+#features {
+    text-align: center;
+    background-color: white;
+    padding: 10% 5%;
+    position: relative;
+}
+
+.icon {
+    color: #ef8172;
+    padding: 3% 3%;
+
+}
+
+.icon:hover {
+    color: crimson;
+}
+
+.feat {
+    font-size: 1.5 rem;
+    font-family: 'Otomanopee One', sans-serif;
+    font-weight: bolder;
+}
+
+.pfeat {
+    color: #8f8f8f;
+}
+
+/* testimonial */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    font-family: 'Newsreader', serif;
+    font-weight: bold;
+}
+
+.test-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 3%;
+}
+
+h2 {
+    font-size: 3rem !important;
+    line-height: 1.5 !important;
+    font-weight: bold;
+}
+
+/* press */
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding: 2% 2%;
+}
+
+.press-img {
+    width: 15%;
+    padding: 0 2%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* pricing */
+#pricing {
+    text-align: center;
+    font-family: 'Newsreader', serif;
+}
+
+.pricing-coloum {
+    padding: 3% 4%;
+}
+
+h3 {
+    font-weight: bold !important;
+}
+
+/* media querey */
+@media (max-width: 1000px) {
+    .phone {
+        position: relative;
+        width: 50%;
+        transform: rotate(0);
+        right: 10%;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+/* footer */
+#cta {
+    text-align: center;
+}
+
+.ftbutton {
+
+    margin: 3% 2%;
+}
+
+.page-footer {
+    color: #fff;
+
+}
+
+.footer {
+
+    background-color: #ff4c68;
+    padding: 2% 5% 2%;
+}
+
+.footerline {
+    font-size: 3rem;
+}
+
+.social {
+    padding: 1%;
+}
